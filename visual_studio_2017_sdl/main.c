@@ -60,11 +60,12 @@ int main(int argc, char** argv)
     //lv_demo_widgets();
     //lv_demo_benchmark();
     //lv_demo_keypad_encoder();
-    lv_demo_printer();
+    //lv_demo_printer();
     //lv_demo_stress();
     //lv_ex_get_started_1();
     //lv_ex_get_started_2();
     //lv_ex_get_started_3();
+    lv_ex_get_started_4();
 
     //lv_ex_style_1();
     //lv_ex_style_2();

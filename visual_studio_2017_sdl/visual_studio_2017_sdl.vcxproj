@@ -368,6 +368,7 @@
     <ClCompile Include="lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_2.c" />
     <ClCompile Include="lv_examples/src/lv_ex_widgets/lv_ex_tileview/lv_ex_tileview_1.c" />
     <ClCompile Include="lv_examples/src/lv_ex_widgets/lv_ex_win/lv_ex_win_1.c" />
+    <ClCompile Include="lv_examples\src\lv_ex_get_started\lv_ex_get_started_4.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <ItemGroup>
