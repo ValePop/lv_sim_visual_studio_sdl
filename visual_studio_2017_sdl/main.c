@@ -65,7 +65,9 @@ int main(int argc, char** argv)
     //lv_ex_get_started_1();
     //lv_ex_get_started_2();
     //lv_ex_get_started_3();
-    lv_ex_get_started_4();
+    //lv_ex_get_started_4();
+
+    test();
 
     //lv_ex_style_1();
     //lv_ex_style_2();
