@@ -95,8 +95,8 @@
       <AdditionalIncludeDirectories>$(ProjectDir)\SDL2\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsC</CompileAs>
       <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ForcedIncludeFiles>stdafx.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(ProjectDir)\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -133,7 +133,8 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(ProjectDir)\SDL2\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_MBCS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
-      <ForcedIncludeFiles>stdafx.h</ForcedIncludeFiles>
+      <ForcedIncludeFiles>stdafx.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader>Use</PrecompiledHeader>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -372,9 +373,18 @@
     <ClCompile Include="lv_examples/src/lv_ex_widgets/lv_ex_tileview/lv_ex_tileview_1.c" />
     <ClCompile Include="lv_examples/src/lv_ex_widgets/lv_ex_win/lv_ex_win_1.c" />
     <ClCompile Include="lv_examples\src\lv_ex_get_started\lv_ex_get_started_4.c" />
+    <ClCompile Include="lv_examples\src\stampante\scrn_menu.cpp" />
+    <ClCompile Include="lv_examples\src\stampante\scrn_menu_print.cpp" />
+    <ClCompile Include="lv_examples\src\stampante\scrn_menu_setup.cpp" />
+    <ClCompile Include="lv_examples\src\stampante\scrn_menu_tools.cpp" />
+    <ClCompile Include="lv_examples\src\stampante\style1.cpp" />
+    <ClCompile Include="lv_examples\src\stampante\top_bar.cpp" />
     <ClCompile Include="lv_examples\src\test\scrn1.cpp" />
     <ClCompile Include="lv_examples\src\test\scr_def.cpp" />
-    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="lv_examples\src\test\test.cpp" />
     <ClCompile Include="main.c" />
   </ItemGroup>
@@ -498,6 +508,7 @@
     <ClInclude Include="lv_examples/src/lv_ex_widgets/lv_ex_widgets.h" />
     <ClInclude Include="lv_conf.h" />
     <ClInclude Include="lv_drv_conf.h" />
+    <ClInclude Include="lv_examples\src\stampante\stampante.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="lv_examples\src\test\test.h" />
     <ClInclude Include="lv_ex_conf.h" />

@@ -15,6 +15,8 @@
 #include "lv_drivers/indev/keyboard.h"
 #include "lv_examples/lv_examples.h"
 
+#include "lv_examples/src/stampante/stampante.h"
+
 /*********************
 *      DEFINES
 *********************/
@@ -67,7 +69,8 @@ int main(int argc, char** argv)
     //lv_ex_get_started_3();
     //lv_ex_get_started_4();
 
-    test();
+    //test();
+    scrn_menu();
 
     //lv_ex_style_1();
     //lv_ex_style_2();
