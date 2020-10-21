@@ -717,19 +717,55 @@
     <ClCompile Include="lv_examples\src\stampante\scrn_menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lv_examples\src\stampante\style1.cpp">
+    <ClCompile Include="lv_examples\src\stampante\scrn_tools_X\scrn_home.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lv_examples\src\stampante\scrn_menu_print.cpp">
+    <ClCompile Include="lv_examples\src\stampante\scrn_tools_X\scrn_axis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lv_examples\src\stampante\scrn_menu_tools.cpp">
+    <ClCompile Include="lv_examples\src\stampante\scrn_tools_X\scrn_preheat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lv_examples\src\stampante\scrn_menu_setup.cpp">
+    <ClCompile Include="lv_examples\src\stampante\scrn_tools_X\scrn_cooling.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lv_examples\src\stampante\top_bar.cpp">
+    <ClCompile Include="lv_examples\src\stampante\scrn_tools_X\scrn_filament.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_tools_X\scrn_reset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_tools_X\scrn_more.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_tools_X\scrn_tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_setup_X\scrn_motor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_setup_X\scrn_status.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_setup_X\scrn_temp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_setup_X\scrn_setup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\misc\style1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\misc\top_bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_setup_X\scrn_lang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_examples\src\stampante\scrn_setup_X\scrn_speeds.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
